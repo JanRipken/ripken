@@ -1,3 +1,5 @@
+// vue.config.js file to be place in the root of your repository
+
 module.exports = {
-    publicPath: '/ripken/',
+    publicPath: process.env.NODE_ENV === 'production' ? '/ripken/' : '/',
 };
