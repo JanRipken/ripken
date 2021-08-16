@@ -91,7 +91,7 @@ import {RouterEventBus} from '../js/router-eventbus';
 import Project from '../components/Project';
 
 export default {
-    name: 'Resumes',
+    name: 'Resume',
 
     components: {
         Project,
@@ -148,15 +148,15 @@ export default {
         };
     },
 
-    mounted() {
-        RouterEventBus.$emit('mounted', this.$options.name);
-    },
-
     methods: {
         scrollTo(el) {
             var elem = this.$el.querySelector(el);
             if (elem) elem.scrollIntoView();
         },
+    },
+
+    mounted() {
+        RouterEventBus.$emit('mounted', this.$options.name);
     },
 };
 </script>
