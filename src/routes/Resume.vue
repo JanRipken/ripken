@@ -260,4 +260,7 @@ export default {
 .exp {
     padding: 50px 0px;
 }
+
+@media screen and (max-width: 690px) {
+}
 </style>
