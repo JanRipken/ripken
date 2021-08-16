@@ -71,40 +71,13 @@ export default {
                             title: 'Media Software',
                             items: [
                                 {
-                                    text: 'OBS Studio (Recording / Streaming)',
+                                    text: 'OBS Studio (Recording)',
                                     link: 'https://obsproject.com/',
                                 },
+
                                 {
-                                    text:
-                                        'DaVinci Resolve (Video Editing & Animation)',
-                                    link:
-                                        'https://www.blackmagicdesign.com/products/davinciresolve/',
-                                },
-                                {
-                                    text:
-                                        'Vegas Pro 14 (Video Editing & Animation - secondary)',
-                                    link:
-                                        'https://store.steampowered.com/app/528200',
-                                },
-                                {
-                                    text: 'FFMPEG (Video Editing & Converting)',
+                                    text: 'FFMPEG (Video Editing)',
                                     link: 'https://ffmpeg.org/',
-                                },
-                                {
-                                    text:
-                                        'Adobe After Effetcs (Video Editing & Animation)',
-                                    link:
-                                        'https://www.adobe.com/products/aftereffects.html',
-                                },
-                                {
-                                    text: 'Affinity Photo (Design Editing)',
-                                    link:
-                                        'https://affinity.serif.com/en-gb/photo/',
-                                },
-                                {
-                                    text: 'Affinity Designer (Design Editing)',
-                                    link:
-                                        'https://affinity.serif.com/en-gb/designer/',
                                 },
                             ],
                         },
@@ -114,21 +87,20 @@ export default {
                             title: 'PC Hardware',
                             items: [
                                 {
-                                    text: 'AMD Ryzen 7 5800X (CPU)',
-                                    link:
-                                        'https://geizhals.de/amd-ryzen-7-5800x-v43019.html',
+                                    text:
+                                        '8 x intel Core i7-6700CPU @ 3.40 GHz ',
                                 },
                                 {
                                     text:
-                                        'Kingston HyperX Fury DDR4 CL15 32GB (RAM)',
+                                        '16GB G.Skill RipJaws V schwarz DDR4-3200 DIMM CL16 Dual Kit',
                                     link:
-                                        'https://geizhals.de/kingston-hyperx-fury-schwarz-dimm-kit-32gb-hx424c15fb4k2-32-a2314792.html',
+                                        'https://www.mindfactory.de/product_info.php/16GB-G-Skill-RipJaws-V-schwarz-DDR4-3200-DIMM-CL16-Dual-Kit_1013799.html',
                                 },
                                 {
                                     text:
-                                        'Sapphire Radeon R9 380 Nitro OC (GPU)',
+                                        '8GB XFX Radeon RX 580 GTS Core Aktiv PCIe 3.0 x16',
                                     link:
-                                        'https://geizhals.eu/sapphire-radeon-r9-380-nitro-oc-11242-13-20g-a1335398.html',
+                                        'https://www.mindfactory.de/product_info.php/8GB-XFX-Radeon-RX-580-GTS-Core-Aktiv-PCIe-3-0-x16--Retail-_1167751.html',
                                 },
                                 {
                                     text: 'ASUS ROG Strix X570-F (Mainboard)',
@@ -136,32 +108,18 @@ export default {
                                         'https://geizhals.de/asus-rog-strix-x570-f-gaming-90mb1160-m0eay0-a2079030.html',
                                 },
                                 {
-                                    text:
-                                        'Samsung SSD 970 EVO Plus 1TB (SSD 1)',
+                                    text: 'Samsung SSD 870 EVO 1TB (SSD 1)',
                                     link:
-                                        'https://geizhals.de/samsung-ssd-970-evo-plus-1tb-mz-v7s1t0bw-a1972735.html',
+                                        'https://geizhals.de/samsung-ssd-870-evo-1tb-mz-77e1t0b-a2458826.html',
                                 },
                                 {
-                                    text: 'Samsung SSD 860 EVO 500GB (SSD 2)',
-                                    link:
-                                        'https://geizhals.eu/samsung-ssd-860-evo-500gb-mz-76e500b-a1756904.html',
-                                },
-                                {
-                                    text: 'Crucial SSD P2 500GB (SSD 3)',
-                                    link:
-                                        'https://geizhals.de/crucial-p2-ssd-500gb-ct500p2ssd8-a2267990.html',
+                                    text: 'Samsung SSD 750 EVO 250GB (SSD 2)',
                                 },
                                 {
                                     text:
-                                        'Seagate BarraCuda Compute 2TB (HDD 1)',
+                                        'Toshiba P300 Desktop PC 3TB, SATA 6Gb/s (HDD 1)',
                                     link:
-                                        'https://geizhals.eu/seagate-barracuda-compute-2tb-st2000dm008-a1700138.html',
-                                },
-                                {
-                                    text:
-                                        'Seagate BarraCuda Compute 8TB (Archive HDD)',
-                                    link:
-                                        'https://geizhals.de/seagate-barracuda-compute-8tb-st8000dm004-a1627294.html',
+                                        'https://geizhals.de/toshiba-p300-high-performance-3tb-hdwd130uzsva-a1358519.html',
                                 },
                             ],
                         },
@@ -169,86 +127,49 @@ export default {
                             title: 'Periphery',
                             items: [
                                 {
-                                    text: 'Acer S2 S242HLDbid 24" (Display)',
+                                    text:
+                                        'Samsung S24F350FHU / S24F352FHU / S24F354FHU, 23.5"" (Display 1)',
                                     link:
-                                        'https://geizhals.eu/acer-s2-s242hldbid-um-fs2ee-d01-a1486397.html',
-                                },
-                                {
-                                    text: 'BenQ GW2265HM 21.5" (Display)',
-                                    link:
-                                        'https://geizhals.eu/benq-gw2265hm-9h-lasla-dbe-9h-lasla-dbu-a978474.html',
-                                },
-                                {
-                                    text: 'Logitech G PRO Wireless (Mouse)',
-                                    link:
-                                        'https://geizhals.eu/logitech-g-pro-wireless-gaming-mouse-910-005272-910-005273-a1871021.html',
+                                        'https://geizhals.de/samsung-s24f350-s24f352-s24f354-ls24f350fhuxen-ls24f352fhuxen-ls24f354fhuxen-a1424024.html',
                                 },
                                 {
                                     text:
-                                        'Corsair K70 MK2 w/ Cherry MX Brown (Keyboard)',
+                                        'Samsung S24F350FHU / S24F352FHU / S24F354FHU, 23.5"  (Display 2)',
                                     link:
-                                        'https://geizhals.eu/corsair-gaming-k70-rgb-mk-2-ch-9109012-uk-a1976130.html',
+                                        'https://geizhals.de/samsung-s24f350-s24f352-s24f354-ls24f350fhuxen-ls24f352fhuxen-ls24f354fhuxen-a1424024.html',
                                 },
                                 {
                                     text:
-                                        'Logitech G502 Proteus Spectrum (Mouse 2)',
+                                        'Logitech M535 Bluetooth Maus (Mouse)',
                                     link:
-                                        'https://geizhals.eu/logitech-g502-proteus-spectrum-910-004617-910-004618-a1377097.html',
+                                        'https://geizhals.de/logitech-m535-bluetooth-maus-grau-910-004530-a1330180.html',
                                 },
                                 {
                                     text:
-                                        'Logitech G810 Orion Spectrum (Keyboard 2)',
+                                        'Logitech G815 Lightsync RGB, GL Tactile (Keyboard)',
                                     link:
-                                        'https://geizhals.eu/logitech-g810-orion-spectrum-920-007740-920-008067-a1389652.html',
+                                        'https://geizhals.de/logitech-g815-lightspeed-920-008985-a2118827.html',
+                                },
+                                {
+                                    text: 'Razer Ouroboros, USB (Mouse 2)',
+                                    link:
+                                        'https://geizhals.de/razer-ouroboros-rz01-00770100-r3g1-a815637.html',
                                 },
                                 {
                                     text:
-                                        'beyerdynamic DT 990 PRO (Headphones)',
+                                        'Logitech G910 Orion Spectrum, Romer-G Tactile, USB (Keyboard 2)',
                                     link:
-                                        'https://geizhals.eu/beyerdynamic-dt-990-pro-459-038-a114314.html',
+                                        'https://geizhals.de/logitech-g910-orion-spectrum-920-008013-a1468996.html',
                                 },
                                 {
-                                    text: 'RØDE NT1-A (Microphone)',
+                                    text: 'Logitech G935 (Headset)',
                                     link:
-                                        'https://geizhals.de/r-de-nt1-a-a183277.html',
+                                        'https://geizhals.de/logitech-g935-schwarz-981-000744-a1982651.html',
                                 },
                                 {
-                                    text:
-                                        'M-Audio Air 192 | 4 (Audio Interface)',
+                                    text: 'Aukey PC-LM1E 1080p Webcam (Cam)',
                                     link:
-                                        'https://geizhals.de/m-audio-air-192-4-a2162277.html',
-                                },
-                                {
-                                    text: 'RØDE NT-USB (Microphone 2)',
-                                    link:
-                                        'https://geizhals.de/r-de-nt-usb-a1130129.html',
-                                },
-                                {
-                                    text:
-                                        'Microsoft Xbox 360 wireless (Controller)',
-                                    link:
-                                        'https://geizhals.eu/microsoft-xbox-360-x360-wireless-controller-for-windows-black-pc-xbox-360-jr9-00007-jr9-00010-a604169.html',
-                                },
-                                {
-                                    text: 'Logitech HD Pro C920 (Cam)',
-                                    link:
-                                        'https://geizhals.eu/logitech-hd-pro-c920-960-001055-a732329.html',
-                                },
-                                {
-                                    text: 'Sony ZV-E10 (Camera)',
-                                    link:
-                                        'https://geizhals.de/sony-zv-e10-body-zv-e10-a2571418.html',
-                                },
-                                {
-                                    text: 'Sony 16-50mm f/3.5-5.6 OSS (Lens)',
-                                    link:
-                                        'https://www.amazon.com/Sony-16-50mm-3-5-5-6-Retractable-Packaging/dp/B01LOVWG8C',
-                                },
-                                {
-                                    text:
-                                        'Bose QuietComfort 35 II (Mobile Headphones)',
-                                    link:
-                                        'https://geizhals.de/bose-quietcomfort-35-ii-schwarz-789564-0010-a1696985.html',
+                                        'https://geizhals.de/aukey-1080p-webcam-pc-lm1e-a2354385.html',
                                 },
                             ],
                         },

@@ -1,6 +1,7 @@
 <template>
     <a :href="repo" target="_blank">
         <div class="project">
+            <p>{{ date }}</p>
             <h1>{{ title }}</h1>
             <p>{{ text }}</p>
             <div class="lang-container">
@@ -24,6 +25,7 @@ export default {
         text: String,
         repo: String,
         langs: Array,
+        date: String,
     },
 
     methods: {
@@ -99,10 +101,6 @@ export default {
     background-color: #ffeb3b !important;
 }
 
-.lang-go {
-    background-color: #00bcd4 !important;
-}
-
 .lang-python {
     background-color: #2979ff !important;
 }
@@ -115,12 +113,5 @@ export default {
     background-color: #00e676 !important;
 }
 
-.lang-angular {
-    background-color: #dd0031 !important;
-}
-
-.lang-react {
-    background-color: #61dafb !important;
-}
 /* ------------------ */
 </style>
