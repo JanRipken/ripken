@@ -256,7 +256,6 @@ export default {
 .resume-container {
     display: flex;
     justify-content: center;
-    flex-flow: row wrap;
 }
 .exp {
     padding: 50px 0px;
