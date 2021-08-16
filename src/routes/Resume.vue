@@ -256,14 +256,12 @@ export default {
 .resume-container {
     display: flex;
     justify-content: center;
+    flex-flow: row wrap;
 }
 .exp {
     padding: 50px 0px;
 }
 
 @media screen and (max-width: 690px) {
-    .data-row {
-        display: block !important;
-    }
 }
 </style>
