@@ -66,7 +66,7 @@
             </div>
             <div class="exp">
                 <div class="experience">
-                    Zertificates
+                    Certificates
                 </div>
                 <hr size="8" width="100%" color="white" />
                 <b-container class="resume-container">
@@ -76,6 +76,7 @@
                         :title="r.title"
                         :text="r.text"
                         :date="r.date"
+                        :repo="r.repo"
                         class="mx-3"
                     />
                 </b-container>
@@ -142,6 +143,8 @@ export default {
                         title: 'virtualization with docker',
                         text: 'LinkedIn Learning',
                         date: 'August 2021',
+                        repo:
+                            'certificates/Abschlusszertifikat_Virtualisierung mit Docker.pdf',
                     },
                 ],
             },
