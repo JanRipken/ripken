@@ -8,7 +8,7 @@
             <b-container fluid class="header-cont">
                 <div class="logo mx-auto text-center">
                     <h1 class="font-montserrat mt-3 mb-1">Ripken</h1>
-                    <h2 class="font-montserrat">ENGINEERING</h2>
+                    <h2 class="font-montserrat">ENGINEERING STUDENT</h2>
                     <button class="down" @click="scrollTo('#scroll-about')">
                         <p>READ MORE</p>
                         <div style="top: -20px;">
