@@ -262,5 +262,8 @@ export default {
 }
 
 @media screen and (max-width: 690px) {
+    .data-row {
+        display: block !important;
+    }
 }
 </style>
