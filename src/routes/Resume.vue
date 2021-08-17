@@ -2,36 +2,44 @@
 
 <template>
     <div>
-        <div class="resume_pic"></div>
-        <div class="text">
-            <div class="oben1">Bring Passion to</div>
-            <div class="oben2">everything i do</div>
-            <div class="list">
-                <ul>
-                    <li>Backend Programming</li>
-                    <li>Network Programming</li>
-                    <li>Web Design</li>
-                </ul>
-            </div>
-            <div class="Download">
-                <a href="CV/Lebenslauf_website.pdf" class="btn-rounded-white"
-                    >CV Download
-                </a>
-            </div>
-        </div>
-        <div class="logo mx-auto text-center">
-            <button class="down" @click="scrollTo('#scroll-about')">
-                <p></p>
-                <div style="top: -20px;">
-                    <img width="80" src="../assets/down-vec.svg" />
+        <div class="main-header-bild"></div>
+
+        <div class="main-header-text">
+            <b-container fluid class="header-cont">
+                <div class="logo mx-auto text-left">
+                    <div class="text">
+                        <div class="oben1">Bring Passion to</div>
+                        <div class="oben2">everything i do</div>
+                        <div class="list">
+                            <ul>
+                                <li>Backend Programming</li>
+                                <li>Network Programming</li>
+                                <li>Web Design</li>
+                            </ul>
+                        </div>
+                        <div class="Download">
+                            <a
+                                href="CV/Lebenslauf_website.pdf"
+                                class="btn-rounded-white"
+                                >CV Download
+                            </a>
+                        </div>
+                    </div>
+                    <button class="down" @click="scrollTo('#scroll-about')">
+                        <p>READ MORE</p>
+                        <div style="top: -20px;">
+                            <img width="80" src="../assets/down-vec.svg" />
+                        </div>
+                        <div style="top: -60px;">
+                            <img width="80" src="../assets/down-vec.svg" />
+                        </div>
+                    </button>
                 </div>
-                <div style="top: -60px;">
-                    <img width="80" src="../assets/down-vec.svg" />
-                </div>
-            </button>
+            </b-container>
         </div>
         <a id="scroll-about"></a>
-        <div class="Lebenslauf">
+        <b-container id="about" class="pad">
+            <p class="mt-5"></p>
             <div>
                 <div class="education">
                     Education
@@ -81,7 +89,8 @@
                     />
                 </b-container>
             </div>
-        </div>
+        </b-container>
+        <Footer />
     </div>
 </template>
 
@@ -165,27 +174,34 @@ export default {
 </script>
 
 <style scoped>
-.resume_pic {
-    background-image: url('../assets/resume_bsp.jpg');
-    height: 80vh;
-    width: 100vh;
+.pad {
+    padding: 50px 0px;
+}
+.main-header-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    padding: 80px;
+}
+.main-header-bild {
+    filter: blur(8px);
+    -webkit-filter: blur(3px);
+    width: 100%;
+    height: 100vh;
     background-repeat: no-repeat;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 600px;
+    background-size: cover;
     transition: transform 0.25s ease-in-out;
 }
 
 .text {
-    position: absolute;
-    top: 35%;
+    float: right;
 
-    left: 65%;
-    transform: translate(-60%, -50%);
-    z-index: 2;
-    width: 30%;
-    height: 50%;
-    padding: 80px;
+    margin-bottom: 10em;
 }
 
 .oben1 {
@@ -210,17 +226,13 @@ export default {
 }
 
 .Download {
-    font-size: 250%;
+    font-size: 40px;
     padding: 20px 0px;
 }
 
 .list {
     font-size: 150%;
     padding: 30px 0px;
-}
-
-.Lebenslauf {
-    padding: 200px 200px;
 }
 
 .education {
@@ -244,7 +256,7 @@ export default {
 .down {
     position: absolute;
     left: calc(50% - 50px);
-    top: calc(100% - 150px);
+    top: calc(100% - 70px);
     margin-top: auto;
     color: white !important;
 }
@@ -256,6 +268,7 @@ export default {
 .resume-container {
     display: flex;
     justify-content: center;
+    flex-flow: row wrap;
 }
 .exp {
     padding: 50px 0px;

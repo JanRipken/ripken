@@ -62,7 +62,7 @@
 /** @format */
 
 import logoDiscord from '../assets/social/discord-128x128.png';
-import logoTwitter from '../assets/social/twitter-128x128.png';
+import logoLinkedIn from '../assets/social/linkedin-4-128.png';
 import logoYoutube from '../assets/social/youtube-128x128.png';
 import logoGithub from '../assets/social/github-128x128.png';
 
@@ -78,15 +78,17 @@ export default {
             socialLinks: [
                 {
                     img: logoDiscord,
-                    link: '',
+                    link: 'https://discord.gg/J2UqMbwbt3',
                 },
                 {
-                    img: logoTwitter,
-                    link: '',
+                    img: logoLinkedIn,
+                    link:
+                        'https://www.linkedin.com/feed/?trk=DACH-SEM_google-adwords_brand-ghp',
                 },
                 {
                     img: logoYoutube,
-                    link: '',
+                    link:
+                        'https://www.youtube.com/channel/UCiyVtEvaxBDmwqPD8_1W7KA',
                 },
                 {
                     img: logoGithub,
