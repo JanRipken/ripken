@@ -206,11 +206,11 @@ export default {
 }
 
 .oben1 {
-    font-size: 300%;
+    font-size: 3vw;
 }
 .oben2 {
     font-weight: bolder;
-    font-size: 300%;
+    font-size: 3vw;
 }
 .btn-rounded-white {
     display: inline-block;
@@ -227,12 +227,12 @@ export default {
 }
 
 .Download {
-    font-size: 40px;
+    font-size: 3vw;
     padding: 20px 0px;
 }
 
 .list {
-    font-size: 150%;
+    font-size: 1.5vw;
     padding: 30px 0px;
 }
 
