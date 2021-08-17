@@ -12,7 +12,7 @@
                     target="_blank"
                     class="mx-3 social-btn"
                 >
-                    <img :src="sl.img" height="150" width="150" />
+                    <img :src="sl.img" height="60" width="60" />
                 </a>
             </div>
         </b-container>
@@ -116,7 +116,7 @@ td {
 }
 
 .contact {
-    margin-top: 300px;
+    margin-top: 350px;
 }
 
 .social-btn {
