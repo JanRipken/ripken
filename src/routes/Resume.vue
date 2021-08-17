@@ -2,7 +2,6 @@
 
 <template>
     <div>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <div class="main-header-bild"></div>
 
         <div class="main-header-text">
