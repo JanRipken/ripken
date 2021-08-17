@@ -256,7 +256,7 @@ export default {
 .down {
     position: absolute;
     left: calc(50% - 50px);
-    top: calc(100% - 70px);
+    top: calc(100% - 150px);
     margin-top: auto;
     color: white !important;
 }
