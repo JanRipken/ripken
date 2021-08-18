@@ -155,6 +155,13 @@ export default {
                         repo:
                             'certificates/Abschlusszertifikat_Virtualisierung mit Docker.pdf',
                     },
+                    {
+                        title: 'Python Bootcamp',
+                        text: 'Udemy',
+                        date: 'August 2021',
+                        repo:
+                            'certificates/Python-Grundkurs.pdf',
+                    },
                 ],
             },
         };
