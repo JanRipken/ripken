@@ -5,9 +5,9 @@
         <!-- DESKTOP HEADER -->
         <b-container fluid class="header d-flex">
             <img
-                src="../assets/JR .png"
-                width="40"
-                height="40"
+                src="../assets/Jan_Ripken_Logo.png"
+                width="50"
+                height="50"
                 class="header-img mr-5 my-auto"
             />
             <button
@@ -24,10 +24,10 @@
         <!-- BURGER HEADER -->
         <b-container fluid class="header header-burger d-none">
             <img
-                src="../assets/JR .png"
+                src="../assets/Jan_Ripken_Logo.png"
                 width="30"
                 height="30"
-                class="header-img mr-4 my-auto"
+                class="header-img mr-5 my-auto"
             />
             <BurgerButton @click="burgerBtnClick" ref="burgerBtn" />
             <b-container fluid :class="burgerClasses" class="burger-buttons">
@@ -80,36 +80,36 @@ export default {
             btns: [
                 {
                     name: 'Main',
-                    title: 'HOME',
-                    window_title: 'Ripken | HOME',
+                    title: 'Home',
+                    window_title: 'Ripken | Home',
                     route: '/',
                     active: true,
                 },
                 {
                     name: 'Projects',
-                    title: 'PROJECTS',
-                    window_title: 'Ripken | PROJECTS',
+                    title: 'Projects',
+                    window_title: 'Ripken | Projects',
                     route: '/projects',
                     active: false,
                 },
                 {
                     name: 'Resume',
-                    title: 'RESUME',
-                    window_title: 'Ripken | RESUME',
+                    title: 'Resume',
+                    window_title: 'Ripken | Resume',
                     route: '/resume',
                     active: false,
                 },
                 {
                     name: 'Gear',
-                    title: 'GEAR',
-                    window_title: 'Ripken | GEAR',
+                    title: 'Gear',
+                    window_title: 'Ripken | Gear',
                     route: '/gear',
                     active: false,
                 },
                 {
                     name: 'Contact',
-                    title: 'CONTACT',
-                    window_title: 'Ripken | CONTACT',
+                    title: 'Contact',
+                    window_title: 'Ripken | Contact',
                     route: '/contact',
                     active: false,
                 },

@@ -159,8 +159,7 @@ export default {
                         title: 'Python Bootcamp',
                         text: 'Udemy',
                         date: 'August 2021',
-                        repo:
-                            'certificates/Python-Grundkurs.pdf',
+                        repo: 'certificates/Python-Grundkurs.pdf',
                     },
                 ],
             },

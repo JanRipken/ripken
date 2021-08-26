@@ -22,14 +22,14 @@ export default new Router({
             component: Projects,
         },
         {
-            path: '/gear',
-            name: 'Gear',
-            component: Gear,
-        },
-        {
             path: '/resume',
             name: 'Resume',
             component: Resume,
+        },
+        {
+            path: '/gear',
+            name: 'Gear',
+            component: Gear,
         },
         {
             path: '/contact',
