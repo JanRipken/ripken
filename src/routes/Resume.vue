@@ -5,7 +5,7 @@
         <div class="main-header-bild"></div>
 
         <div class="main-header-text">
-            <b-container fluid class="header-cont">
+            <div fluid class="header-cont">
                 <div class="logo mx-auto text-left">
                     <div class="text">
                         <div class="oben1">Bring Passion to</div>
@@ -35,7 +35,7 @@
                         </div>
                     </button>
                 </div>
-            </b-container>
+            </div>
         </div>
         <a id="scroll-about"></a>
         <b-container id="about" class="pad">

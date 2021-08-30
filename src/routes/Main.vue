@@ -6,16 +6,21 @@
 
         <div class="main-header-text">
             <b-container fluid class="header-cont">
-                <div class="logo mx-auto text-center">
+                <div class="logo mx-auto text-logo">
+                    <img
+                        src="../assets/meinAvatar.svg"
+                        width="200"
+                        height="230"
+                    />
                     <h1 class="font-montserrat mt-3 mb-1">Jan Ripken</h1>
                     <h2 class="font-montserrat">ENGINEERING STUDENT</h2>
                     <button class="down" @click="scrollTo('#scroll-about')">
                         <p>READ MORE</p>
                         <div style="top: -20px;">
-                            <img width="80" src="../assets/down-vec.svg" />
+                            <img width="60" src="../assets/down-vec.svg" />
                         </div>
                         <div style="top: -60px;">
-                            <img width="80" src="../assets/down-vec.svg" />
+                            <img width="60" src="../assets/down-vec.svg" />
                         </div>
                     </button>
                 </div>
@@ -122,7 +127,11 @@ a {
 }
 
 .header-cont {
-    padding: 20vh 0px;
+    padding: 120px 0px;
+}
+
+.text-logo {
+    text-align: center;
 }
 
 .logo {
@@ -142,7 +151,7 @@ a {
 .down {
     position: absolute;
     left: calc(50% - 50px);
-    top: calc(100% - 150px);
+    top: calc(100% - 110px);
     margin-top: auto;
     color: white !important;
 }
