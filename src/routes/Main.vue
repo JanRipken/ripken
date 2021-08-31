@@ -29,30 +29,66 @@
         <a id="scroll-about"></a>
         <b-container id="about" class="content mt-6">
             <h1 class="page-header">ABOUT ME</h1>
-            <p class="mt-5">
-                <br />
-                <br />
-                I am {{ calculateAge(new Date('1997-09-01')) }} years old and a
-                passionate developer and coder since around 2019. 've started
-                creating small tools using .NET (C#) and Windows Presentation
-                Foundation. Also, some Bots using the Discord API to dive deeper
-                into Python and object oriented programming in general.
-                <br />
-                <br />Currently, I am a student at the jade University of
-                Applied Sciences with a major in mechanical engineering and
-                specialization in Cyber-physical systems and work as a Student
-                assistant for high level language programming. At the moment i'm
-                working on creating CSE videos using the Python Library "Manim"
-                <br />
-                <br />My interests are specifically in DevOps tools like docker
-                and CI/CD (TravisCI,GitLab Pipelines,Jenkins,Github Actions) as
-                well as setting up, maintaining and configuring Linux servers
-                (mostly arch and debian)
-                <br />
-                <br />I am also currently trying to expand my skills in the
-                fields of cybersecurity as well as a bit of frontend development
-                like this website
-            </p>
+            <b-row>
+                <b-col>
+                    <img
+                        class="img-aboutmeTop"
+                        src="../assets/meinAvatar.svg"
+                    />
+                </b-col>
+                <b-col>
+                    <span class="text-aboutmeTop">
+                        I am {{ calculateAge(new Date('1997-09-01')) }} years
+                        old and a passionate developer and coder since around
+                        2019. I've started creating small tools using .NET (C#)
+                        and Windows Presentation Foundation. Also, some Bots
+                        using the Discord API to dive deeper into Python and
+                        object oriented programming in general.
+                        <br />
+                        <br />
+                        Before that, I trained as an automotive mechatronics
+                        technician because machines have always fascinated me,
+                        but it was only through my studies that I discovered my
+                        passion for programming and designing
+                        <br />
+                        <br />Currently, I am a student at the jade University
+                        of Applied Sciences with a major in mechanical
+                        engineering and specialization in Cyber-physical systems
+                        and work as a Student assistant for high level language
+                        programming.
+
+                        <br />
+                        <br />My interests are specifically in DevOps tools like
+                        docker and CI/CD (TravisCI,GitLab
+                        Pipelines,Jenkins,Github Actions) as well as setting up,
+                        maintaining and configuring Linux servers (mostly arch
+                        and debian)
+                        <br />
+                        <br />I am also currently trying to expand my skills in
+                        the fields of cybersecurity as well as a bit of frontend
+                        development like this website
+                    </span>
+                </b-col>
+            </b-row>
+            <b-row style="text-align: center;">
+                <span class="text-aboutmeBottom">
+                    <br />
+                    <br />At the moment i'm working on creating CSE videos using
+                    the Python Library "Manim"
+
+                    <div class="yt-iframe d-flex mt-5">
+                        <iframe
+                            width="560"
+                            height="315"
+                            src="https://www.youtube.com/embed/TTC7OvYXcyk"
+                            title="YouTube video player"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen
+                        ></iframe>
+                    </div>
+                </span>
+            </b-row>
         </b-container>
         <Footer />
     </div>
@@ -93,10 +129,6 @@ export default {
 
 <style scoped>
 /** @format */
-
-a {
-    text-decoration: underline;
-}
 
 .main-header-bild {
     background-image: url('../assets/main.jpg');
@@ -162,6 +194,24 @@ a {
 
 .mt-6 {
     margin-top: 100px;
+}
+
+h1 {
+    margin-bottom: 70px;
+}
+
+.img-aboutmeTop {
+    width: 100%;
+}
+
+.text-aboutmeTop {
+    float: right;
+    margin-top: 40px;
+}
+
+.text-aboutmeBottom {
+    margin-top: 100px;
+    margin-left: 140px;
 }
 
 .yt-iframe > iframe {

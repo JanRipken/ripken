@@ -2,13 +2,16 @@
 
 <template>
     <div>
-        <div class="main-header-bild"></div>
-
-        <div class="main-header-text">
-            <div fluid class="header-cont">
-                <div class="logo mx-auto text-left">
-                    <div class="text">
-                        <div class="oben1">Bring Passion to</div>
+        <b-container class="cont-1">
+            <b-row>
+                <b-col>
+                    <img class="img-me" src="../assets/meinAvatar.svg" />
+                </b-col>
+                <b-col class="cont-1-col-2">
+                    <div>
+                        <div class="oben1">
+                            Bring Passion to
+                        </div>
                         <div class="oben2">everything i do</div>
                         <div class="list">
                             <ul>
@@ -25,18 +28,19 @@
                             </a>
                         </div>
                     </div>
-                    <button class="down" @click="scrollTo('#scroll-about')">
-                        <p>READ MORE</p>
-                        <div style="top: -20px;">
-                            <img width="80" src="../assets/down-vec.svg" />
-                        </div>
-                        <div style="top: -60px;">
-                            <img width="80" src="../assets/down-vec.svg" />
-                        </div>
-                    </button>
+                </b-col>
+            </b-row>
+            <button class="down" @click="scrollTo('#scroll-about')">
+                <p>READ MORE</p>
+                <div style="top: -20px;">
+                    <img width="60" src="../assets/down-vec.svg" />
                 </div>
-            </div>
-        </div>
+                <div style="top: -60px;">
+                    <img width="60" src="../assets/down-vec.svg" />
+                </div>
+            </button>
+        </b-container>
+
         <a id="scroll-about"></a>
         <b-container id="about" class="pad">
             <p class="mt-5"></p>
@@ -183,31 +187,17 @@ export default {
 .pad {
     padding: 50px 0px;
 }
-.main-header-text {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 2;
-    width: 80%;
-    padding: 80px;
+
+.cont-1 {
+    margin-top: 150px;
+    margin-bottom: 300px;
 }
-.main-header-bild {
-    filter: blur(8px);
-    -webkit-filter: blur(3px);
+.cont-1-col-2 {
+    margin-left: 150px;
+}
+.img-me {
     width: 100%;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    transition: transform 0.25s ease-in-out;
-}
-
-.text {
-    float: right;
-
-    margin-bottom: 10em;
+    float: left;
 }
 
 .oben1 {
@@ -232,13 +222,13 @@ export default {
 }
 
 .Download {
-    font-size: 3vw;
-    padding: 20px 0px;
+    font-size: 2.5vw;
+    margin-top: 40px;
 }
 
 .list {
-    font-size: 1.5vw;
-    padding: 30px 0px;
+    font-size: 1.2vw;
+    margin-top: 30px;
 }
 
 .education {
@@ -262,7 +252,7 @@ export default {
 .down {
     position: absolute;
     left: calc(50% - 50px);
-    top: calc(100% - 150px);
+    top: calc(100% - 130px);
     margin-top: auto;
     color: white !important;
 }
