@@ -3,13 +3,13 @@
 <template>
     <div>
         <b-container fluid class="cont-1">
-            <b-row col-4 d-flex justify-content-center text-center>
-                <b-col>
+            <b-row class="">
+                <b-col class="text-center">
                     <div>
-                        <img class="img-me" src="../assets/meinAvatar.svg" />
+                        <img class="img-me " src="../assets/meinAvatar.svg" />
                     </div>
                 </b-col>
-                <b-col class="cont-1-col-2  ">
+                <b-col class="cont-1-col-2">
                     <div>
                         <div class="oben1">
                             Bring Passion to
@@ -201,10 +201,10 @@ export default {
     margin-left: 10%;
 }
 .img-me {
-    width: 60%;
-    height: 60%;
+    width: 80%;
+    height: 100%;
     position: relative;
-    left: calc(50% - 50px);
+    left: calc(30%);
 }
 
 .oben1 {
@@ -259,7 +259,7 @@ export default {
 .down {
     position: absolute;
     left: calc(50% - 50px);
-    top: calc(100%);
+    top: calc(100% - 40px);
 
     color: white !important;
 }
