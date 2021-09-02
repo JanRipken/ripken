@@ -4,12 +4,12 @@
     <div>
         <b-container fluid class="cont-1">
             <b-row col-4 d-flex justify-content-center text-center>
-                <b-col sm="5">
+                <b-col>
                     <div>
                         <img class="img-me" src="../assets/meinAvatar.svg" />
                     </div>
                 </b-col>
-                <b-col sm="5" class="cont-1-col-2  ">
+                <b-col class="cont-1-col-2  ">
                     <div>
                         <div class="oben1">
                             Bring Passion to
@@ -198,7 +198,7 @@ export default {
 }
 .cont-1-col-2 {
     margin-bottom: 20%;
-    left: calc(15% - 60px);
+    margin-left: 10%;
 }
 .img-me {
     width: 60%;
@@ -259,7 +259,7 @@ export default {
 .down {
     position: absolute;
     left: calc(50% - 50px);
-    top: calc(100% - 120px);
+    top: calc(100%);
 
     color: white !important;
 }
