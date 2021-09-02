@@ -1,13 +1,13 @@
 <!-- @format -->
 
 <template>
-    <div>
-        <b-container class="cont-1">
+    <div class="main">
+        <b-container fluid class="cont-1">
             <b-row>
                 <b-col>
                     <img class="img-me" src="../assets/meinAvatar.svg" />
                 </b-col>
-                <b-col class="cont-1-col-2">
+                <b-col class="cont-1-col-2 ">
                     <div>
                         <div class="oben1">
                             Bring Passion to
@@ -30,17 +30,20 @@
                     </div>
                 </b-col>
             </b-row>
-            <button class="down" @click="scrollTo('#scroll-about')">
-                <p>READ MORE</p>
-                <div style="top: -20px;">
-                    <img width="60" src="../assets/down-vec.svg" />
-                </div>
-                <div style="top: -60px;">
-                    <img width="60" src="../assets/down-vec.svg" />
-                </div>
-            </button>
+            <b-row>
+                <b-col>
+                    <button class="down" @click="scrollTo('#scroll-about')">
+                        <p>READ MORE</p>
+                        <div style="top: -20px;">
+                            <img width="35%" src="../assets/down-vec.svg" />
+                        </div>
+                        <div style="top: -60px;">
+                            <img width="35%" src="../assets/down-vec.svg" />
+                        </div>
+                    </button>
+                </b-col>
+            </b-row>
         </b-container>
-
         <a id="scroll-about"></a>
         <b-container id="about" class="pad">
             <p class="mt-5"></p>
@@ -189,15 +192,16 @@ export default {
 }
 
 .cont-1 {
-    margin-top: 150px;
-    margin-bottom: 300px;
+    margin-top: 15vh;
 }
 .cont-1-col-2 {
-    margin-left: 150px;
+    margin-left: 10%;
+    margin-bottom: 20%;
 }
 .img-me {
-    width: 100%;
-    float: left;
+    width: 60%;
+    float: right;
+    height: 60%;
 }
 
 .oben1 {
@@ -252,8 +256,8 @@ export default {
 .down {
     position: absolute;
     left: calc(50% - 50px);
-    top: calc(100% - 130px);
-    margin-top: auto;
+    top: calc(100% - 120px);
+
     color: white !important;
 }
 
@@ -270,6 +274,6 @@ export default {
     padding: 50px 0px;
 }
 
-@media screen and (max-width: 690px) {
+@media screen and (max-height: 750px), screen and (max-width: 690px) {
 }
 </style>
