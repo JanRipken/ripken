@@ -1,13 +1,15 @@
 <!-- @format -->
 
 <template>
-    <div class="main">
+    <div>
         <b-container fluid class="cont-1">
-            <b-row>
-                <b-col>
-                    <img class="img-me" src="../assets/meinAvatar.svg" />
+            <b-row col-4 d-flex justify-content-center text-center>
+                <b-col sm="5">
+                    <div>
+                        <img class="img-me" src="../assets/meinAvatar.svg" />
+                    </div>
                 </b-col>
-                <b-col class="cont-1-col-2 ">
+                <b-col sm="5" class="cont-1-col-2  ">
                     <div>
                         <div class="oben1">
                             Bring Passion to
@@ -195,13 +197,14 @@ export default {
     margin-top: 15vh;
 }
 .cont-1-col-2 {
-    margin-left: 10%;
     margin-bottom: 20%;
+    left: calc(15% - 60px);
 }
 .img-me {
     width: 60%;
-    float: right;
     height: 60%;
+    position: relative;
+    left: calc(50% - 50px);
 }
 
 .oben1 {
@@ -275,5 +278,11 @@ export default {
 }
 
 @media screen and (max-height: 750px), screen and (max-width: 690px) {
+    .img-me > img {
+        width: 60%;
+        height: 60%;
+        position: relative;
+        left: calc(50% - 50px);
+    }
 }
 </style>

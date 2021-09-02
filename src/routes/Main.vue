@@ -30,7 +30,7 @@
         <b-container id="about" class="content mt-6">
             <h1 class="page-header">ABOUT ME</h1>
             <b-row>
-                <b-col>
+                <b-col sm="6">
                     <img
                         class="img-aboutmeTop"
                         src="../assets/meinAvatar.svg"
@@ -211,7 +211,7 @@ h1 {
 
 .text-aboutmeBottom {
     margin-top: 100px;
-    margin-left: 140px;
+    margin-left: 5%;
 }
 
 .yt-iframe > iframe {
