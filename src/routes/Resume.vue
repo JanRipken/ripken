@@ -170,6 +170,12 @@ export default {
                         date: 'August 2021',
                         repo: 'certificates/Python-Grundkurs.pdf',
                     },
+                    {
+                        title: 'Learning Web Techniques, Part 1: HTML',
+                        text: 'LinkedIn Learning',
+                        date: 'September 2021',
+                        repo: 'certificates/Python-Grundkurs.pdf',
+                    },
                 ],
             },
         };
