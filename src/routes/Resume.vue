@@ -201,8 +201,8 @@ export default {
     margin-left: 10%;
 }
 .img-me {
-    width: 80%;
-    height: 100%;
+    width: 60%;
+    height: 60%;
     position: relative;
     left: calc(30%);
 }
@@ -259,7 +259,7 @@ export default {
 .down {
     position: absolute;
     left: calc(50% - 50px);
-    top: calc(100% - 40px);
+    top: calc(100% - 130px);
 
     color: white !important;
 }
