@@ -10,15 +10,17 @@
                 height="50"
                 class="header-img mr-5 my-auto"
             />
-            <button
-                v-for="btn in btns"
-                class="header-btn"
-                :class="{active: btn.active}"
-                :key="btn.title"
-                @click="btnClick(btn)"
-            >
-                {{ btn.title }}
-            </button>
+            <div class="header-div">
+                <button
+                    v-for="btn in btns"
+                    class="header-btn"
+                    :class="{active: btn.active}"
+                    :key="btn.title"
+                    @click="btnClick(btn)"
+                >
+                    {{ btn.title }}
+                </button>
+            </div>
         </b-container>
 
         <!-- BURGER HEADER -->
@@ -170,6 +172,13 @@ export default {
     font-family: 'Montserrat', sans-serif;
 }
 
+.header-div {
+    margin: 0 auto;
+    width: 100%;
+    text-align: left;
+    margin-left: 2%;
+}
+
 .header-btn {
     position: relative;
     margin: 0;
@@ -184,6 +193,7 @@ export default {
 
 .header-btn::before {
     content: '';
+    border-radius: 20px;
     position: absolute;
     z-index: -1;
     left: 0;
@@ -213,7 +223,6 @@ export default {
     position: relative;
     top: -50px;
     opacity: 0;
-
     transition: all 0.25s ease-in-out;
 }
 
