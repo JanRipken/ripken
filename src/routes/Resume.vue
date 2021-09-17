@@ -24,7 +24,7 @@
                         </div>
                         <div class="Download">
                             <a
-                                href="CV/Lebenslauf_website.pdf"
+                                href="CV/Lebenslauf.pdf"
                                 class="btn-rounded-white"
                                 >CV Download
                             </a>
