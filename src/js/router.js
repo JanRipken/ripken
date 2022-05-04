@@ -41,4 +41,7 @@ export default new Router({
             component: Main,
         },
     ],
+    scrollBehavior() {
+        return {x: 0, y: 0}
+    }
 });

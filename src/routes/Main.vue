@@ -2,18 +2,14 @@
 
 <template>
     <div>
-        <div class="main-header-bild"></div>
+        <div class="main-header-bild">
+        </div>
 
         <div class="main-header-text">
             <b-container fluid class="header-cont">
                 <div class="logo mx-auto text-logo">
-                    <img
-                        src="../assets/meinAvatar.svg"
-                        width="200"
-                        height="230"
-                    />
                     <h1 class="font-montserrat mt-3 mb-1">Jan Ripken</h1>
-                    <h2 class="font-montserrat">ENGINEERING STUDENT</h2>
+                    <h2 class="font-montserrat">BUSINESS INFORMATICS STUDENT</h2>
                     <button class="down" @click="scrollTo('#scroll-about')">
                         <p>READ MORE</p>
                         <div style="top: -20px;">
@@ -30,10 +26,10 @@
         <b-container id="about" class="content mt-6">
             <h1 class="page-header">ABOUT ME</h1>
             <b-row>
-                <b-col sm="6">
+                <b-col sm="6" >
                     <img
                         class="img-aboutmeTop"
-                        src="../assets/meinAvatar.svg"
+                        src="../assets/bilder/21216-11_Datei.jpg"
                     />
                 </b-col>
                 <b-col>
@@ -131,7 +127,7 @@ export default {
 /** @format */
 
 .main-header-bild {
-    background-image: url('../assets/main.jpg');
+    background-image: url('../assets/bilder/ich_Arbeitstisch.jpg');
     filter: blur(8px);
     -webkit-filter: blur(3px);
     width: 100%;
@@ -141,6 +137,7 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
     transition: transform 0.25s ease-in-out;
+    
 }
 .main-header-text {
     background-color: rgb(0, 0, 0); /* Fallback color */
@@ -202,6 +199,7 @@ h1 {
 
 .img-aboutmeTop {
     width: 100%;
+    margin-top: 80px;
 }
 
 .text-aboutmeTop {
@@ -210,7 +208,7 @@ h1 {
 }
 
 .text-aboutmeBottom {
-    margin-top: 100px;
+    margin-top: 200px;
     margin-left: 5%;
 }
 

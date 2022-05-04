@@ -6,7 +6,7 @@
             <b-row class="">
                 <b-col class="text-center">
                     <div>
-                        <img class="img-me " src="../assets/meinAvatar.svg" />
+                        <img class="img-me " src="../assets/bilder/ich_Arbeitstisch.jpg" />
                     </div>
                 </b-col>
                 <b-col class="cont-1-col-2">
