@@ -85,7 +85,7 @@
                 <div class="experience">
                     Certificates
                 </div>
-                <hr size="8" width="100%" color="white" />
+                <hr size="10" width="100%" color="white" />
                 <b-container class="resume-container">
                     <Project
                         v-for="r in resume.body3"
@@ -201,8 +201,7 @@ export default {
                         title: 'Ethical Hacking mit Python in der Praxis: Der Kommpletkurs',
                         text: 'Udemy',
                         date: 'April 2022',
-                        repo:
-                            'certificates/UC-e6dca6cc-a114-41c0-a370-a508e2399ef1.pdf',
+                        repo:'certificates/UC-e6dca6cc-a114-41c0-a370-a508e2399ef1.pdf',
                     },
                 ],
             },
