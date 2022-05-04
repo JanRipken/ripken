@@ -6,7 +6,7 @@
             <b-row class="">
                 <b-col class="text-center">
                     <div>
-                        <img class="img-me " src="../assets/bilder/ich_Arbeitstisch.jpg" />
+                        <img class="img-me " src="../assets/bilder/21215-018_Datei.jpg" />
                     </div>
                 </b-col>
                 <b-col class="cont-1-col-2">
@@ -37,10 +37,10 @@
                     <button class="down" @click="scrollTo('#scroll-about')">
                         <p>READ MORE</p>
                         <div style="top: -20px;">
-                            <img width="35%" src="../assets/down-vec.svg" />
+                            <img width="25%" src="../assets/down-vec.svg" />
                         </div>
                         <div style="top: -60px;">
-                            <img width="35%" src="../assets/down-vec.svg" />
+                            <img width="25%" src="../assets/down-vec.svg" />
                         </div>
                     </button>
                 </b-col>
@@ -212,6 +212,7 @@ export default {
     height: 60%;
     position: relative;
     left: calc(30%);
+    margin-top: 60px;
 }
 
 .oben1 {
@@ -266,7 +267,7 @@ export default {
 .down {
     position: absolute;
     left: calc(50% - 50px);
-    top: calc(100% - 130px);
+    top: calc(100% - 170px);
 
     color: white !important;
 }
