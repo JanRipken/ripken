@@ -1,7 +1,11 @@
 <!-- @format -->
 
 <template>
+
     <div class="contact">
+    <div class="text-center"> 
+    <h3 class="mt-5">if possible please contact me via LinkedIn</h3>
+    </div>
         <form action="https://formspree.io/f/xayaaqko" method="POST">
             <div class="background">
                 <div class="container">
@@ -125,7 +129,7 @@
 <script>
 /** @format */
 
-import logoDiscord from '../assets/social/discord-128x128.png';
+
 import logoLinkedIn from '../assets/social/linkedin-4-128.png';
 import logoYoutube from '../assets/social/youtube-128x128.png';
 import logoGithub from '../assets/social/github-128x128.png';
@@ -140,10 +144,6 @@ export default {
     data() {
         return {
             socialLinks: [
-                {
-                    img: logoDiscord,
-                    link: 'https://discord.gg/J2UqMbwbt3',
-                },
                 {
                     img: logoLinkedIn,
                     link:
@@ -196,7 +196,7 @@ td {
 }
 
 .built-with-banner {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .built-with-banner > .hr {
