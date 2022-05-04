@@ -140,6 +140,12 @@ export default {
                         title: 'Jade Hochschule Wilhelmshaven',
                         text:
                             'Mechanical engineering B. Eng. with a specialization in Cyber-Physical Systems',
+                        date: 'Sept 2019 - Feb 2022',
+                    },
+                    {
+                        title: 'Jade Hochschule Wilhelmshaven',
+                        text:
+                            'Business Informatics',
                         date: 'Sept 2019 - Present',
                     },
                 ],
@@ -152,7 +158,7 @@ export default {
                     {
                         title: 'Jade Hochschule Wilhelmshaven',
                         text:
-                            'Student assistant in the field of high-level language programming and numerics',
+                            'Student assistant in the field of high-level language programming and various research projects',
                         date: 'April 2021 – Till now',
                     },
                 ],
@@ -176,6 +182,27 @@ export default {
                         date: 'September 2021',
                         repo:
                             'certificates/Abschlusszertifikat_Webtechniken lernen Teil 1 HTML.pdf',
+                    },
+                    {
+                        title: 'Python: Statistische Auswertungen',
+                        text: 'LinkedIn Learning',
+                        date: 'September 2021',
+                        repo:
+                            'certificates/Abschlusszertifikat_Python Statistische Auswertungen.pdf',
+                    },
+                    {
+                        title: 'Fortgeschrittene Python programmierung',
+                        text: 'Udemy',
+                        date: 'Oktober 2021',
+                        repo:
+                            'certificates/UC-c9a6b58b-e364-4d33-896e-c4452f480b80.pdf',
+                    },
+                    {
+                        title: 'Ethical Hacking mit Python in der Praxis: Der Kommpletkurs',
+                        text: 'Udemy',
+                        date: 'April 2022',
+                        repo:
+                            'certificates/UC-e6dca6cc-a114-41c0-a370-a508e2399ef1.pdf',
                     },
                 ],
             },
